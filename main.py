@@ -34,7 +34,7 @@ def video(text):
         sifatv="144p"
 ########$##$$$$#$
 from botdata import qoshish, amal
-bot= TeleBot('1699547688:AAHjXPWPT1_u8l1SzI2F23Smj96B1l32BlA')
+bot= TeleBot('*')
 @bot.message_handler(commands=['start'])
 def start(message):
     if amal(int(message.from_user.id)):
